@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Newsreader:wght@200;400&family=Prompt:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Prompt:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 75%;
+  border-radius: 3px;
+  height: 600px;
+  margin: auto;
+  box-shadow: 3px 3px 12px 5px #888888;
+}
+.section-title {
+  font-size: 3vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  max-width: 98%;
+  height: 75px;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  border: solid black;
+  margin-left: 12%;
+}
+
+/* ------------------------------------------------------ */
+/* navbar */
+
+.nav-list {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  width: 50%;
+  display: fixed;
+  margin-top: 15px;
+}
+
+.nav-item {
+  width: 10%;
+  display: block;
+  margin: auto;
+}
+/* ------------ */
+
+.intro {
+  background: #e1e4e6;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.intro strong {
+  display: block;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.intro-text h1 {
+  font-size: 4vw;
+}
+
+.intro-text p {
+  width: 600px;
+  text-align: right;
+  padding-right: 50%;
+  font-size: 2vw;
+  align-self: center;
+  margin-left: -210px;
+}
+
+.intro-img {
+  width: 25%;
+  max-width: 100%;
+  box-shadow: 3px 3px 12px 5px #888888;
+  margin-right: 2%;
+}
+
+.section-title-intro {
+  font-family: "Exo 2", sans-serif;
+
+  margin-bottom: 2%;
+}
+
+.section-subtitle-intro {
+  background-color: rgba(151, 117, 77, 0.596);
+  padding: 10px;
+  text-align: left;
+  padding-right: 10%;
+  font-family: "Prompt", sans-serif;
+}
+
+/* my service */
+
+.my-services {
+  background-color: rgb(49, 43, 43, 0.8);
+}
+.services {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10% auto 10% auto;
+}
+
+.section-title-services {
+  color: aliceblue;
+  font-family: "Exo 2", sans-serif;
+
+  text-align: center;
+}
+
+.service {
+  width: 30%;
+  height: 143px;
+  display: flex;
+  margin: 5px auto 5px auto;
+}
+
+.service img {
+  margin: auto;
+  width: 40%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 12px 5px #888888;
+}
+
+.btn {
+  background-color: rgba(151, 117, 77, 0.596);
+  padding: 10px 0;
+  color: #e1e4e6;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 3px 3px 12px 5px #888888;
+  display: block;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: rgba(109, 89, 66, 0.596);
+}
+
+/* -------------- */
+
+/* about me */
+
+.about-me {
+  background-color: #e1e4e6;
+}
+
+.section-title-about {
+  font-family: "Exo 2", sans-serif;
+
+  margin-bottom: 20px;
+}
+
+.section-subtitle-about {
+  background-color: rgba(151, 117, 77, 0.596);
+  padding: 10px;
+  font-size: 20px;
+  width: 90%;
+  text-align: left;
+  padding-right: 10%;
+  font-family: "Prompt", sans-serif;
+}
+
+.about-me-body {
+  font-size: 15px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.about-me header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-subtitle-about {
+  text-align: center;
+}
+
+.about-body-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+}
+
+.about-me-body {
+  font-size: 15px;
+  font-family: "Exo 2", sans-serif;
+  width: 25%;
+  height: 100%;
+}
+
+.about-img {
+  width: 25%;
+  height: 100%;
+  border: solid;
+}
+
+/* -------------- */
+
+/* my work */
+
+.my-work {
+  background-color: rgb(49, 43, 43, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-mywork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title-work {
+  color: aliceblue;
+  font-family: "Exo 2", sans-serif;
+}
+
+.section-subtitle-work {
+  color: rgba(151, 117, 77, 0.596);
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 20px;
+  width: 90%;
+  text-align: center;
+  padding-right: 10%;
+
+  font-family: "Prompt", sans-serif;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 75%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: 20%;
+  height: 40%;
+  border: 2px white solid;
+  box-shadow: 3px 3px 12px 5px #888888;
+}
+
+.portfolio-img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.25);
+}
+
+/* ------------ */
+
+footer {
+  display: flex;
+  height: 10%;
+  width: 75%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------- */
+/* absolute and relative position */
+
+/* section:hover {
+  transform: scale(1.1);
+} */
+
+/* intro */
+
+/* .intro strong {
+  display: block;
+} */
+
+/* .intro {
+  background: #e1e4e6;
+} */
+/* 
+.intro-img {
+  width: 15%;
+  max-width: fit-content;
+  max-height: fit-content;
+  box-shadow: 3px 3px 12px 5px #888888;
+  position: absolute;
+  left: 31%;
+  top: 30%;
+} */
+
+/* .section-subtitle-intro {
+  background-color: rgba(151, 117, 77, 0.596);
+  padding: 10px;
+  font-size: 30px;
+  width: 50%;
+  text-align: right;
+  padding-right: 10%;
+  position: absolute;
+  top: 45%;
+  left: 28%;
+  font-family: "Prompt", sans-serif;
+}
+
+.section-title-intro {
+  font-family: "Exo 2", sans-serif;
+  font-size: 38px;
+  position: absolute;
+  left: 47%;
+  top: 30%;
+} */
+
+/* / intro */
+
+/* about me */
+
+/* 
+.about-me {
+  background: #e1e4e6;
+  position: relative;
+}
+
+.section-title-about {
+  font-family: "Exo 2", sans-serif;
+  font-size: 38px;
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  margin-bottom: 20px;
+}
+
+.section-subtitle-about {
+  background-color: rgba(151, 117, 77, 0.596);
+  padding: 10px;
+  font-size: 20px;
+  width: 90%;
+  text-align: left;
+  padding-right: 10%;
+  position: absolute;
+  font-family: "Prompt", sans-serif;
+  top: 30%;
+  left: 5%;
+}
+
+.about-me-body {
+  position: absolute;
+  left: 5%;
+  top: 45%;
+  font-size: 15px;
+  font-family: "Exo 2", sans-serif;
+} */
+
+/* .about-photo {
+  width: 25%;
+  height: 65%;
+  max-width: fit-content;
+  max-height: fit-content;
+  box-shadow: 3px 3px 12px 5px #888888;
+  position: absolute;
+  right: 15%;
+  top: 20%;
+} */
+
+/* my work */
+
+/* .my-work {
+  background-color: rgb(36, 31, 31);
+  position: relative;
+}
+
+.section-title-work {
+  color: aliceblue;
+  font-family: "Exo 2", sans-serif;
+  font-size: 38px;
+  position: absolute;
+  left: 40%;
+  top: 2%;
+}
+
+.section-subtitle-work {
+  color: rgba(151, 117, 77, 0.596);
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 20px;
+  width: 90%;
+  text-align: left;
+  padding-right: 10%;
+  position: absolute;
+  font-family: "Prompt", sans-serif;
+  top: 12%;
+  left: 30%;
+}
+
+.portfolio-img {
+  width: 20%;
+  height: 20%;
+  border: 2px white solid;
+} */ ;
