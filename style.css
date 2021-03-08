@@ -122,20 +122,19 @@ section {
 /* my service */
 
 .my-services {
-  background-color: rgb(49, 43, 43, 0.8);
+  background-color: #e1e4e6;
 }
 .services {
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 10% auto 10% auto;
+  margin: 5% auto 5% auto;
 }
 
 .section-title-services {
-  color: aliceblue;
+  color: black;
   font-family: "Exo 2", sans-serif;
-
   text-align: center;
 }
 
@@ -143,7 +142,7 @@ section {
   width: 30%;
   height: 143px;
   display: flex;
-  margin: 5px auto 5px auto;
+  margin: 0px auto 5px auto;
 }
 
 .service img {
@@ -183,7 +182,6 @@ section {
 
 .section-title-about {
   font-family: "Exo 2", sans-serif;
-
   margin-bottom: 20px;
 }
 
@@ -217,6 +215,7 @@ section {
   justify-content: space-around;
   align-items: center;
   height: 60%;
+  margin: 5%;
 }
 
 .about-me-body {
@@ -237,7 +236,7 @@ section {
 /* my work */
 
 .my-work {
-  background-color: rgb(49, 43, 43, 0.8);
+  background-color: #e1e4e6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,18 +250,17 @@ section {
 }
 
 .section-title-work {
-  color: aliceblue;
+  color: black;
   font-family: "Exo 2", sans-serif;
 }
 
 .section-subtitle-work {
-  color: rgba(151, 117, 77, 0.596);
+  color: black;
   font-weight: bolder;
   padding: 10px;
   font-size: 20px;
   width: 90%;
   text-align: center;
-  padding-right: 10%;
 
   font-family: "Prompt", sans-serif;
 }
@@ -277,10 +275,12 @@ section {
 }
 
 .portfolio-item {
-  width: 20%;
-  height: 40%;
+  margin: 5px;
+  width: 22%;
+  height: 30%;
   border: 2px white solid;
   box-shadow: 3px 3px 12px 5px #888888;
+  position: relative;
 }
 
 .portfolio-img {
@@ -290,6 +290,7 @@ section {
 
 .portfolio-item:hover {
   transform: scale(1.25);
+  transition: 0.4s ease-in;
 }
 
 /* ------------ */
